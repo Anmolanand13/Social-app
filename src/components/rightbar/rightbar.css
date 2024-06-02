@@ -1,0 +1,113 @@
+.rightbar
+{
+    flex: 4;
+    margin-left: 40px;
+}
+.rightbarWrapper
+{
+    padding: 20px 20px 0 0;
+}
+.birthdayimg
+{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.birthdaytext
+{
+    font-weight: 300;
+    font-size: 15px;
+}
+.rightbarad
+{
+    width: 100%;
+    border-radius: 10px;
+}
+.birthdaycontainer
+{
+    display: flex;
+    align-items: center;
+}
+.rightbarfriendlist
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.rightbarfriend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.rightbarimgcontainer
+{
+    margin-right: 10px;
+    position: relative;
+}
+.rightbarprofileimg
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.rightbaronline
+{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: limegreen;
+    position: absolute;
+    top: -2px;
+    border: 2px solid white;
+
+}
+.rightbarusername
+{
+    font-weight: 500;
+}
+.rightbartitle
+{
+    font-style: 18px;
+    font-weight: 500;
+    margin-bottom: 10;
+}
+.rightbarfollowingimg
+{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.rightbarinfo
+{
+    margin-bottom: 30px;
+
+}
+.rightbarinfoitem
+{
+    margin-bottom: 10px;
+}
+.rightbarinfokey
+{
+    font-weight: 500px;
+    margin-right: 15px;
+    color: #555;
+}
+.rightbarinfobvalue
+{
+    font-weight: 300px;
+
+}
+.rightbarFollowings
+{
+    display: flex;
+     flex-wrap: wrap;
+    justify-content: space-between; 
+}
+.rightbarfollowing{
+   display: flex;
+    flex-direction: column;
+    margin: 5px;
+    cursor: pointer;
+}
